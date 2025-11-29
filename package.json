@@ -1,0 +1,21 @@
+{
+    "name": "pakeplus-android",
+    "version": "1.0.0",
+    "description": "Pake Plus Android",
+    "main": "index.js",
+    "scripts": {
+        "pp:worker": "node ./scripts/ppworker.cjs",
+        "restore": "git restore ."
+    },
+    "keywords": [
+        "pakeplus",
+        "pakeplus-android"
+    ],
+    "author": "1024小神",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^13.1.0",
+        "fs-extra": "^11.3.0",
+        "sharp": "^0.34.1"
+    }
+}
